@@ -1,6 +1,7 @@
 //notes to self
 //add final in front of code to lock in variables
 
+//MODE VARIABLES
 int mode;
 
 int INTRO = 0;
@@ -8,9 +9,15 @@ int GAME = 1;
 int PAUSE = 2;
 int GAMEOVER = 3;
 
+//TARGET VARIAGBLES ----------------------------------------------
+
+
+//COLOR PALLETTE
+
 void setup(){
   size(800,800);
   mode = INTRO;
+  textAlign(CENTER,CENTER);
 }
 
 void draw(){
